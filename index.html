@@ -10,23 +10,29 @@
 
     <body>
         <header class="header">
-
+            <!-- This is the header title -->
             <h1>Weather Dashboard</h1>
     
         </header>
 
+        <!-- This holds all the elements that are under the header -->
         <div class="main-container">
+
+            <!-- This has the search bar and button and will display the history searches -->
             <div class="left-nav">
                 <h2 class="text-primary">Search for a City:</h2>
 
                 <input id="search-input" class="city-input" type="text" placeholder="San Diego">
                 <button class="btn search-btn">Search</button>
+                
 
             </div>
 
+            <!-- These are all the days for the weather results -->
             <div class="weather-result">
+                <!-- This is the current date weather prediction -->
                 <div class="current-date">
-                    <h2><span id="result-text"></span>Placeholder XX/XX/XX</h2>
+                    <h2><span class="result-text"></span>Placeholder XX/XX/XX</h2>
                     <ul class="stats">
                         <li class="temp">Temp: </li>
                         <li class="wind">Wind: </li>
@@ -34,6 +40,7 @@
                     </ul>
                 </div>
                 <h3>5-Day Forecast</h3>
+                <!-- These are the 5 future weather predictions -->
                 <div class="future-dates">
                     <div class="box day-2">
                         <h3>XX/XX/XX</h3>

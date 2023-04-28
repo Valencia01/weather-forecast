@@ -2,6 +2,7 @@ html {
     font-family: 'Roboto', sans-serif;
 }
 
+/* This sets the gradient in the header */
 h1 {
     text-align: center;
     color: white;
@@ -11,6 +12,7 @@ h1 {
 
   }
 
+  /* Gets rid the the bullet points of the list and lessens the left padding */
   ul {
     list-style-type: none;
     padding: 0 0 0 10px;
@@ -20,6 +22,7 @@ h1 {
     margin: 10px 0
   }
 
+  /* This formats the boxes for the 5 day forecast */
   .box {
     height: 180px;
     width: 150px;
@@ -33,11 +36,13 @@ h1 {
     padding: 0 0 0 10px;
   }
 
+  /* Puts the border around the current day thats displaying the weather */
   .current-date {
     padding: 10px;
     border: 1px solid #484848;
   }
 
+  /* formats the layout of the 5 day forecast boxes */
   .future-dates {
     display: flex;
     flex-direction: row;
@@ -48,6 +53,7 @@ h1 {
     box-sizing: border-box;
   }
 
+  /* Places and formats the input element */
   #search-input {
     display: block;
     width: 100%;
@@ -64,6 +70,7 @@ h1 {
     margin-bottom: 0.625rem;
   }
 
+  /* formats a default button */
   .btn {
     text-align: center;
     display: inline-block;
@@ -78,22 +85,26 @@ h1 {
     text-align: center;
   }
 
+  /* adds cursor and changes the color of the button when hovering over it */
   .btn:hover {
     background-color: #cecece;
     cursor: pointer;
   }
 
+  /* changes the color of the seaarch button */
   .search-btn {
     background-color: #4b78cb;
     color: #ffffff;
   }
 
+  /* changes the colors of the history button */
   .history-btn {
     background-color: #9e9e9e;
     color: #000000;
     margin-top: 10px;
   }
 
+  /* makes the boundaries for the elements in the flex box */
   .main-container {
     display: flex;
     flex-direction: row;
@@ -109,6 +120,7 @@ h1 {
     padding: 0;
   }
 
+  /* makes it takes up only 25% of the screen leaving the 75% for the results */
   .left-nav{
     
     padding: 1rem;
@@ -123,6 +135,7 @@ h1 {
 
   }
 
+  /* the results from the input */
   .weather-result {
     flex: 0 0 75%;
     max-width: 75%;
